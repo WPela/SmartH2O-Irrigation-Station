@@ -22,7 +22,7 @@ void setup()
 
 void loop()
 {
- DateTime now = RTC.now();
+ DateTime now = RTC.now();  //RTC will be used to set night break
 
     Serial.print(now.year(), DEC);
     Serial.print('/');
@@ -41,14 +41,14 @@ void loop()
  output_value = map(output_value,550,10,0,100);
  Serial.print("Mositure : ");
  Serial.print(output_value);
- Serial.println("%");
+ Serial.println("%");    //Read and print of the soil moisture level in Serial monitor
 
- if(output_value>45){
+ if(output_value>45){                //condition set to turn on water pump when sensor output is lower then 45%  
   digitalWrite(relayPin, LOW);
  }
  else
  {
-  digitalWrite(relayPin, HIGH);
+  digitalWrite(relayPin, HIGH);      //when the condition met, pump will work 2 sec and wait 30 sec then the condition is checked once again.
   Serial.print("Powering water pump");
   delay(2000);
   digitalWrite(relayPin, LOW);
