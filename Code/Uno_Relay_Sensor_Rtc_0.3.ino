@@ -1,4 +1,4 @@
-//AIS - Version 4
+//AIS - Version 3
 
 #include "RTClib.h"
 #include <Wire.h>
