@@ -7,7 +7,7 @@ Link to repository: https://github.com/WPela/AIS_Arduino/tree/master/Code
 
 Below diagram describes a way of all the connections between Arduino, Relay, RTC and Soil Moisture sensor. Sensor, Relay and RTC are powered with 5V but pump with 3,3V to decrese the flow of the water. 
 
-![AIS_Diagram_v4](https://github.com/WPela/AIS_Arduino/assets/62253932/a57163c5-10df-4ddf-9d44-988934fc067a)
+![AIS_Diagram_v4](https://github.com/WPela/AIS_Arduino/assets/62253932/a57163c5-10df-4ddf-9d44-988934fc067a)<br>
 
 *diagram made in Virtual Breadboard app*
 
