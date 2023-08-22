@@ -1,7 +1,7 @@
 # AIS_Arduino
 Repository for Automated Irrigation System (AIS)
 
-Repository contains code, schematics, plans and all versions of Automated Irrigation System (AIS). It is based on Arduino compatible boards, with soil moisture sensor, RTC and water pump controlled by relay.
+Repository contains code, schematics, plans and all versions of AIS. It is based on Arduino compatible board, with soil moisture sensor, RTC and water pump controlled by relay.
 
 Link to repository: https://github.com/WPela/AIS_Arduino/tree/master/Code
 
