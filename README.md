@@ -12,7 +12,7 @@ List of parts:
  - Soil Moisture sensor (Capacitive)
  - Water pump (submersible, 3.3/5V)
  - Jumper wires
- - power supply (power unit with 5/3.3V output)
+ - Power supply (power unit with 5/3.3V output)
 
 Below diagram describes a way of all the connections between Arduino, Relay, RTC and Soil Moisture sensor. Sensor, Relay and RTC are powered with 5V but pump with 3,3V to decrese the flow of the water. 
 
