@@ -1,5 +1,5 @@
 # AIS_Arduino Project 1
-Repository for Automated Irrigation System (AIS)
+Repository for Automated Irrigation System (AIS) Project_1
 
 Repository contains code, schematics, plans and all versions of AIS. It is based on Arduino compatible board, with soil moisture sensor, RTC and water pump controlled by relay.
 
