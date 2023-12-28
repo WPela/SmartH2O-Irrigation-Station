@@ -1,4 +1,4 @@
-# AIS_Arduino
+# AIS_Arduino Project 1
 Repository for Automated Irrigation System (AIS)
 
 Repository contains code, schematics, plans and all versions of AIS. It is based on Arduino compatible board, with soil moisture sensor, RTC and water pump controlled by relay.
@@ -9,7 +9,7 @@ List of parts:
  - Arduino Uno or compatible
  - Relay switch module (built in transistor and opto-isolator)
  - RTC module (DS3231 with battery)
- - Soil Moisture sensor (Capacitive)
+ - Soil Moisture sensor (capacitive)
  - Water pump (submersible, 3.3/5V)
  - Jumper wires
  - Power supply (power unit with 3.3/5V output)
