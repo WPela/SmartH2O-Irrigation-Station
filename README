@@ -1,10 +1,13 @@
-# AIS_Arduino
+IN PROGRESS
 
-Repository for Automated Irrigation System (AIS)
+# SmartH2O-Irrigation-Station
 
-Repository contains code, schematics, plans and all versions of AIS. It is based on Arduino compatible board, with soil moisture sensor, RTC and water pump controlled by relay.
+Repository for SmartH2O-Irrigation-Station (SIS)
 
-Link to repository: https://github.com/WPela/AIS_Arduino/tree/master/Code
+Repository contains code, schematics, plans and all versions of SIS. It is based on Arduino or Raspberry RP2040 compatible board, with soil moisture sensor, RTC
+and water pump controlled by relay.
+
+Link to repository: XXX
 
 Please see https://github.com/users/WPela/projects/1 to check current status of the project.
 
