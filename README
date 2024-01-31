@@ -4,10 +4,10 @@ IN PROGRESS
 
 Repository for SmartH2O-Irrigation-Station (SIS)
 
-Repository contains code, schematics, plans and all versions of SIS. It is based on Arduino or Raspberry RP2040 compatible board, with soil moisture sensor, RTC
-and water pump controlled by relay.
+Repository contains code, schematics, plans and all versions of SIS. It is based on Arduino or Raspberry RP2040 compatible board, with soil moisture sensor and water pump controlled by relay.
 
 Link to repository: XXX
 
 Please see https://github.com/users/WPela/projects/1 to check current status of the project.
 
+ 
