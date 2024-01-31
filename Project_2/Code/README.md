@@ -15,7 +15,7 @@ Below diagram describes a way of all the connections between RP2040, sensor and 
 
 *diagram in progress*
 
-*photo*
+![image](https://github.com/WPela/SmartH2O-Irrigation-Station/assets/62253932/a1b42221-0a9c-4626-8179-7fdab3fc0888)
 
 Photo as of 31st of January 2024
 
