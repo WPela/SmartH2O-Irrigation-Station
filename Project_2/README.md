@@ -13,7 +13,16 @@ List of parts:
 
 Below diagram describes a way of all the connections between RP2040, sensor and pump. All the components are power with 3,3V via voltage stablilizer. 
 
-*diagram in progress*
+  SIS circuit
+
+![circuit (1)](https://github.com/WPela/SmartH2O-Irrigation-Station/assets/62253932/deb6506a-cac9-4464-95f8-9ece62119542)
+
+  Power Section
+
+![circuit (3)](https://github.com/WPela/SmartH2O-Irrigation-Station/assets/62253932/4b129ca0-6620-4c08-8d45-80d00a7767d3)
+
+
+Diagrams made in *circuit-diagram.org*
 
 ![image](https://github.com/WPela/SmartH2O-Irrigation-Station/assets/62253932/a1b42221-0a9c-4626-8179-7fdab3fc0888)
 
