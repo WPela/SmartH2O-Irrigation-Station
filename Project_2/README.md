@@ -9,7 +9,7 @@ List of parts:
  - Waveshare RP2040-Zero (any microcontroller with RP2040 can be used)
  - Soil Moisture sensor with integrated water pump and transistor (M5Stack watering Unit with Moisture Sensor and Pump)
  - LD1117V33 voltage stabilizer + two 100µF capacitors
- - Power supply (7-15V)
+ - Power supply (7-12V)
 
 Below diagram describes a way of all the connections between RP2040, sensor and pump. All the components are power with 3,3V via voltage stablilizer. 
 
