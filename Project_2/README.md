@@ -1,7 +1,7 @@
 # SIS Project 2
 Repository for SmartH2O-Irrigation-Station (SIS) Project_2
 
-Repository contains code, schematics, plans and all versions of SIS. It is based on Raspberry RP2040 compatible board, with soil moisture sensor and water pump controlled by relay.
+Repository contains code, schematics, plans and all versions of SIS. It is based on Raspberry RP2040 compatible board, with soil moisture sensor and water pump.
 
 List of parts:
  - Waveshare RP2040-Zero (any microcontroller with RP2040 can be used)
