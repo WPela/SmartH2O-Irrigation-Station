@@ -15,12 +15,14 @@ Below diagram describes a way of all the connections between RP2040, sensor and 
 
 ![circuit (1)](https://github.com/WPela/SmartH2O-Irrigation-Station/assets/62253932/deb6506a-cac9-4464-95f8-9ece62119542)
 
+  Diagram made in *circuit-diagram.org*
+
   Power Section
 
 ![image](https://github.com/WPela/SmartH2O-Irrigation-Station/assets/62253932/72b870ef-960b-4065-b44c-739b2accd17a)
 
+Screenshot from Datasheet
 
-Diagrams made in *circuit-diagram.org*
 
 ![image](https://github.com/WPela/SmartH2O-Irrigation-Station/assets/62253932/a1b42221-0a9c-4626-8179-7fdab3fc0888)
 
