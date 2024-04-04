@@ -8,7 +8,9 @@ List of parts:
  - Soil Moisture sensor with integrated water pump and transistor (M5Stack watering Unit with Moisture Sensor and Pump)
  - LD1117V33 voltage stabilizer + two 100µF capacitors
  - Power supply (7-12V)
+
    *additionaly*
+   
  - 5.5x2.5mm power connector
  - m5stack Grove connector
  - on/off switch
