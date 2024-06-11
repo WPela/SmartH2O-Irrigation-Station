@@ -10,7 +10,7 @@ led_onboard = Pin(14, Pin.OUT)
 output_pin = Pin(27, Pin.OUT)
 input_pin = ADC(Pin(26))
 
-threshold = 35000  # You can adjust this threshold value
+threshold = 33500  # You can adjust this threshold value
 
 WIDTH = 128
 HEIGHT = 64
@@ -25,7 +25,11 @@ while True:
     moisture_data = input_pin.read_u16()
     moisture_perc = (1-(moisture_data/65535))*100
     print(input_pin.read_u16())
-    write15.text(str(moisture_perc) + "%", 0, 0)
+    
+    oled.fill(0)
+    write15.text("MOISTURE: " + str(round(moisture_perc, 1)) + "%", 0, 0)
+    write15.text("CURRENT:  " + str(moisture_data), 0, 18)
+    write15.text("THRESHOLD:" + str(threshold), 0, 36)
     oled.show()
 
     if moisture_data > threshold:
@@ -46,3 +50,5 @@ while True:
         oled.show()
         time.sleep(1)
         oled.fill(0)
+        
+    time.sleep(1)
