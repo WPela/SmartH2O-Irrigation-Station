@@ -10,7 +10,7 @@ led_onboard = Pin(14, Pin.OUT)
 output_pin = Pin(27, Pin.OUT)
 input_pin = ADC(Pin(26))
 
-threshold = 33500  # You can adjust this threshold value
+threshold = 34000  # You can adjust this threshold value
 
 WIDTH = 128
 HEIGHT = 64
