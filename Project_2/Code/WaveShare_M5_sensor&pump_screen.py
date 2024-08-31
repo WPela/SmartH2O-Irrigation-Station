@@ -48,7 +48,9 @@ while True:
         oled.fill(0)
         write20.text("RUN", 0, 20)
         oled.show()
+        output_pin.value(1)
         time.sleep(1)
         oled.fill(0)
+        output_pin.value(0)
         
     time.sleep(1)
