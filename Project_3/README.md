@@ -4,6 +4,7 @@ Repository for SmartH2O-Irrigation-Station (SIS) Project_3
 Repository contains code, schematics, plans and all versions of SIS. It is based on ESP8266, with soil moisture sensor and water pump.
 
 TBU!!!
+
 List of parts:
  - ESP8266
  - Soil Moisture sensor with integrated water pump and transistor (M5Stack watering Unit with Moisture Sensor and Pump)
