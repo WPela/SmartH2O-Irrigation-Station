@@ -16,8 +16,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1); // OLED I2C, n
 
 // LED pin and WiFi credentials
 #define LED_PIN D0  // GPIO16 (D0)
-const char* ssid = "WIFI_SSID";
-const char* password = "WIFI_PASSWORD";
+const char* ssid = WIFI_SSID;
+const char* password = WIFI_PASSWORD;
 
 void setup() {
   // Initialize serial communication
@@ -80,7 +80,7 @@ void loop() {
   display.setCursor(0, 0);
   display.println("ON");
   display.display();
-  delay(1000);
+  delay(2000);
 
   // Turn LED OFF
   digitalWrite(LED_PIN, LOW);
@@ -88,5 +88,5 @@ void loop() {
   display.setCursor(0, 0);
   display.println("OFF");
   display.display();
-  delay(1000);
+  delay(2000);
 }
