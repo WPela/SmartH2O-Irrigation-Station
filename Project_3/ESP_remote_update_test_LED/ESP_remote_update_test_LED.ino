@@ -7,7 +7,7 @@
 #include <Adafruit_SSD1306.h>
 
 // Hidden WiFi credentials
-#include "config.h"
+#include "config\config.h"
 
 // OLED display settings
 #define SCREEN_WIDTH 128
